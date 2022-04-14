@@ -28,7 +28,7 @@ li $v0, 5
 syscall
 # Salvar 'h'
 move $s2, $v0
-# C?lculo da ??rea 'S'
+# Calculo da Area 'S'
 add $t0, $s0, $s1
 mul $t1, $t0, $s2
 div $s3, $t1, 2
